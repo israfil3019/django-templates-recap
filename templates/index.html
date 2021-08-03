@@ -124,7 +124,7 @@
           </div>
         </div>
         <div class="btn-box">
-          <a href="{% url 'teacher.html' %}">
+          <a href= "{% url 'about' %}">
             Read More
           </a>
         </div>
@@ -161,7 +161,7 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="">
+        <a href="{% url 'teacher' %}">
           See More
         </a>
       </div>
@@ -278,18 +278,20 @@
                 Get In Touch
               </h2>
             </div>
-            <form action="">
+            <form action="{% url 'home' %}" method= "POST">
+              {% csrf_token %}
+            
               <div>
-                <input type="text" placeholder="Name" />
+                {{form.name}}
               </div>
               <div>
-                <input type="text" placeholder="Pone Number" />
+                {{form.phone_number}}
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                {{form.email}}
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                {{form.message}}
               </div>
               <div class="d-flex  mt-4 ">
                 <button>
@@ -308,4 +310,4 @@
 
     <!-- end info_section -->
 
-{% endblock content%}
+{% endblock %}
