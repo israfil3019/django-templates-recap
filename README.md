@@ -46,5 +46,5 @@ $ git clone https://github.com/israfil3019/django-templates-recap
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/israfil3019)
-- Linkedin [@your-linkedin](https://www.linkedin.com/in/israfil-topac/)
+- GitHub [@israfil3019](https://github.com/israfil3019)
+- Linkedin [@israfil-topac](https://www.linkedin.com/in/israfil-topac/)
